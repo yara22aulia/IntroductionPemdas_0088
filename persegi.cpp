@@ -1,19 +1,18 @@
-#include<iosream>
+#include<iostream>
 using namespace std;
 
 int main()
 
-{//start
-    float p,l,luas
-
-//langkah 2 : Masukkan Panjang
-cout << "Masukkan Panjang : " ;
+{ //start
+    float p,l,luas;
+//langkah 2 : Masukan Panjang
+cout << "masukan panjang : " ;
 cin >> p;
-//langkah 3 : Masukkan Lebar
-cout << "Masukkan Lebar : " ;
+//langka 3 : Masukan Lebar
+cout << "Masukan Lebar : " ;
 cin >> l;
 //langkah 4 : Hitung Luas = p x l
 luas = p*l;
-//langkah 5 :
-cout << "Hasilnya = " << luas ;
+//langkah 5
+cout << "Hasilnya = " << luas ; 
 }//selesai
